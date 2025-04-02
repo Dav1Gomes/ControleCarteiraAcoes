@@ -39,6 +39,18 @@ O **Controle de Carteira de Ações** é um aplicativo desenvolvido como trabalh
 🔹 ![Dotenv](https://img.shields.io/badge/Dotenv-%23E34F26.svg?style=for-the-badge)  
 
 ---
+## 🌐 API Utilizada
+O projeto consome a API **Polygon.io**, que fornece dados sobre investimentos e cotações do mercado financeiro. Principais endpoints utilizados:
+
+```GET /v2/aggs/ticker/{ticker}/prev``` → Retorna os dados da última cotação de uma ação.
+
+```GET /v2/aggs/ticker/{ticker}/range/1/day/{from}/{to}``` → Retorna histórico de preços no intervalo selecionado.
+
+```GET /v2/snapshot/locale/us/markets/stocks/tickers``` → Lista todas as ações do mercado dos EUA.
+
+## ☁ Hospedagem
+### **Backend:** https://carteiraacoes.onrender.com/api
+---
 
 ## 📦 Instalação e Configuração
 
