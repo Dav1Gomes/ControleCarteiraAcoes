@@ -52,12 +52,12 @@ cd ControleCarteiraAcoes
 ```bash
 npm install
 ```
-📱 Escaneie o QR Code com o app Expo Go para rodar no celular.
 
 ### **3️⃣ Iniciar o aplicativo**
 ```bash
 npx expo start
 ```
+📱 Escaneie o QR Code com o app Expo Go para rodar no celular.
 
 ## **🔴 Backend**
 ### **1️⃣ Entrar na pasta do backend**
